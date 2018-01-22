@@ -1,0 +1,28 @@
+footer{
+	color:blue;
+}
+h1{
+	color:blue;
+}
+.menucolor{
+	background:orange;
+}
+.homecolor{
+	background:yellow;
+}
+#navigation a:link
+{
+	color: blue;
+	text-decoration: none;
+}
+
+#navigation a:visited
+{
+	color: purple;
+	text-decoration: none;
+}
+#navigation a:hover 
+{
+	color: blue;
+	text-decoration: bold;
+}

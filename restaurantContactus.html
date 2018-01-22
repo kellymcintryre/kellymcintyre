@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css"
+	href="restaurantStyles.css"
+	</head>
+	<body>
+		<center>
+		<h1>SWG's Bar and Grill</h1>
+		</center>
+		<hr />
+		<div id="navigation">
+		<p><a href="restaurantHome.html" data-toggle="tab"><span class="glyphicon glyphicon-home"></span>Home</a>   
+         <a href="restaurantMenu.html" data-toggle="tab">Menu</a>   
+         <a href="restaurantContactus.html" data-toggle="tab">Contact Us</a></p>
+		<hr />
+		</div>
+			<form action="submit.htnml" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br />
+			<br>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email"><br />
+			<br>
+			<label for="phone">Phone:</label>
+			<input type="text"id="phone" name="phone"><br />
+			<br>
+			<label for="inquiry">Reason for Inquiry:</label>
+			<select id="inquiry" name="inquiry">
+				<option value="default" selected>--Catering--</option>
+				<option value="privateparty">Private Party</option>
+				<option value="feedback">Feedback</option>
+				<option value="other">Other</option>
+			</select>
+			<br>
+		<label for="info">Additional Information:</label><br />
+			<textarea id="info" rows="6"></textarea>
+			<br>
+		Have you been to the restaurant?
+			<input type="radio" id="choice1" name="questionnaire" value="no">
+			<label for="choice1">No</label>
+			<input type="radio" id="choice2" name="questionnaire" value="yes">
+			<label for="choice2">Yes</label>
+			<br>
+		Best days to contact you:
+			<input type="checkbox" id="monday" name="contact" value="monday">
+			<label for="monday">M</label>
+			<input type="checkbox" id="tuesday" name="contact" value="tuesday">
+			<label for="backEnd">T</label>
+			<input type="checkbox" id="wednesday" name="contact" value="wednesday">
+			<label for="wednesday">W</label>
+			<input type="checkbox" id="thursday" name="contact" value="thursday">
+			<label for="thursday">Th</label>
+			<input type="checkbox" id="friday" name="contact" value="friday">
+			<label for="friday">F</label>
+			<br>
+		<center><input type="submit" name="submit" value="Send Request"></center>
+		
+		
+
+		<div id="footer">
+		<hr />
+	<footer>
+		<center>
+		<p>100 national, Portsmout NH, 54390</p>
+		<p>816-592-1368</p>
+		</center>
+	</footer>
+		</div>	
+	</body>
